@@ -20,3 +20,8 @@ h1 {
 h2, h3 {
   text-align: center;
 }
+
+h2 {
+  margin: 0 auto 28px auto;
+  max-width: 950px;
+}
