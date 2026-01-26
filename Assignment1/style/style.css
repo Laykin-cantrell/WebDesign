@@ -1,14 +1,14 @@
 body {
-  background-color: SaddleBrown;
+  background-color: #0f1411;
 }
 
 h1 {
   border: 2px solid #333;
   padding: 35px;
   text-align: center;
-  background-color: ForestGreen;
+  background-color: #4E6952;
 }
 
 h2, h3 {
-  text-aglin: center;
+  text-align: center;
 }
