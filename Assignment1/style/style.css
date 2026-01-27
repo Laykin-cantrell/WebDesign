@@ -25,3 +25,10 @@ h2 {
   margin: 0 auto 28px auto;
   max-width: 950px;
 }
+
+
+p {
+  max-width: 75%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
