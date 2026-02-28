@@ -15,6 +15,7 @@ h1 {
   letter-spacing: 1px;
   background-color: #4E6952;
   color: #EBCBA2;
+  text-shadow: 0px 1px 3px rgba(60, 80, 50, 0.3);
 }
 
 h2, h3 {
