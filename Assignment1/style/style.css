@@ -16,6 +16,7 @@ h1 {
   background-color: #4E6952;
   color: #EBCBA2;
   text-shadow: 0px 1px 3px rgba(60, 80, 50, 0.3);
+  text-shadow: X-offset Y-offeset bur-radious color;
 }
 
 h2, h3 {
