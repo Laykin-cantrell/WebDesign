@@ -28,16 +28,14 @@ h1 {
   margin: 0 auto 18px auto;
   max-width: 800px;
 
-  letter-spacing: 2.5px;
-
+  letter-spacing: 3px;
   background-color: #4E6952;
   color: #EBCBA2;
 
   font-size: 56px;
-
   position: relative;
-
-  box-shadow: -10px 6px 4px 0 rgb(71, 87, 62, 0.25);
+  box-shadow: -10px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
 }
 
 h2 {
@@ -69,12 +67,19 @@ nav {
 
   padding: 10px 16px;
   border-radius: 8px;
+  border: 1px solid #4E6952;
+
+  display: inline-block;
   transition: background-color 0.2s ease;
 }
 
 .nav a:hover {
   background-color: #4E6952;
   color: #EBCBA2;
+  
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+
+  animation: navBounce 1.2s ease;
 }
 
 /* Image */
@@ -86,13 +91,14 @@ nav {
 
   margin: 0 auto 35px auto;
   border: 4px solid #4E6952;
+  border-radius: 10px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
 }
 
 /* chapters */
 
 .chapter {
-  margin-bottom: 35px;
+  margin-bottom: 45px;
 }
 
 h3 {
@@ -106,7 +112,7 @@ h3 {
   color: #EBCBA2;
 
   font-size: 16px;
-  
+  border-radius: 8px;
 
   text-align: left;
   margin: 0 0 12px 0;
@@ -118,9 +124,10 @@ h3 {
 p {
   font-family: 'Times New Roman', Times, serif;
   background-color: #1B2A1E;
-
   padding: 20px;
+
   border-left: 5px solid  #4E6952;
+  border-radius: 9px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.20);
 
   margin: 0 0 20px 0;
@@ -139,4 +146,24 @@ p {
   color: #EBCBA2;
   font-family: Arial, Helvetica, sans-serif;
  
+}
+
+/* nav bounce animation */
+
+@keyframes navBounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(-8px);
+  }
+
+  60% {
+    transform: translateY(3px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
