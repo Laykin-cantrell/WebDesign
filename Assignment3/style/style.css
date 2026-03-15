@@ -273,28 +273,32 @@ p {
 
 /* favorites page */
 
-.favorites-table {
-  width: 80%;
-  margin: 20px auto 40px auto;
+.favorite-table {
+  width: 70%;
+  margin: 30px auto;
+  background-color: #314b35;
+  border: 2px solid #638e6a;
   border-collapse: collapse;
-  color: #EBCBA2;
+  
+ 
 }
 
-.favorites-table th,
-.favorites-table td {
-  border: 2px solid #EBCBA2;
+.favorite-table th,
+.favorite-table td {
   padding: 12px;
+  border: 2px solid #638e6a;
   text-align: center;
+  background-color: #1f3b29
 }
 
-.favorites-table th {
-  background-color: #4E6952;
-  color: #EBCBA2;
+.favorite-table th {
+  background-color: rgba(61, 116, 76, 0.01);
 }
 
-.favorites-table td {
-  background-color: rgba(255, 255, 255, 0.05);
+.favorite-table tr:nth-child(even) {
+  background-color: rgba(50, 94, 58, 0.5);
 }
+
 
 .survey-form {
   width: 85%;
@@ -315,6 +319,7 @@ p {
 }
 
 .survey-form input[type="text"],
+.survey-form input[type="email"],
 .survey-form select,
 .survey-form textarea {
   width: 100%;
