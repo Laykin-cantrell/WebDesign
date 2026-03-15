@@ -171,3 +171,57 @@ p {
     transform: translateY(0);
   }
 }
+
+/* about page image */
+
+.image-section {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.main-image {
+  width: 500px;
+  max-width: 90%;
+  display: block;
+
+  margin: 0 auto 10px auto;
+  border: 4px solid #4E6952;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+}
+
+.image-caption {
+  font-size: 10px;
+  margin-top: 0px;
+  color: #EBCBA2;
+  letter-spacing: 1px;
+
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  max-width: none;
+}
+
+/* gallery page */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 30%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px black;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
