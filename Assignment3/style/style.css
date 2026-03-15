@@ -123,7 +123,7 @@ h3 {
   .page-title {
     text-align: center;
     margin: 0 auto 12px auto;
-    max-width: 420px;
+    max-width: 440px;
 
     padding: 18px 22px;
     letter-spacing: 2px;
@@ -132,7 +132,7 @@ h3 {
     color: #EBCBA2;
 
     font-family: "Cinzel", serif;
-    font-size: 16px;
+    font-size: 18px;
 
     border-radius: 8px;
   }
@@ -358,3 +358,33 @@ p {
 .form-buttons input:hover {
   opacity: 0.85;
 }
+
+@media (max-width: 600px) {
+
+  body {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 36px;
+    padding: 20px;
+  }
+
+  .gallery {
+    gap: 20;
+  }
+
+  .character {
+    width: 100%;
+  }
+
+  .survey-form {
+    width: 100%;
+  }
+
+  .nav li {
+  display: block;
+  margin: 10px 0;
+  }
+}
+
