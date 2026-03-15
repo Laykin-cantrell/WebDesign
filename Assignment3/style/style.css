@@ -3,7 +3,7 @@
 body {
   background-color: #141F18;
   color: #f5DBBA;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Cinzel", serif;
   margin: 0;
   padding: 40px;
   line-height: 1.7;
@@ -102,7 +102,7 @@ nav {
 }
 
 h3 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Cinzel", serif;
   text-transform: uppercase;
  
   padding: 18px 22px;
@@ -117,12 +117,14 @@ h3 {
   text-align: left;
   margin: 0 0 12px 0;
   max-width: 420px;
+
+  
 }
 
 /* Paragraph */
 
 p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Georgia', serif;
   background-color: #1B2A1E;
   padding: 20px;
 
@@ -209,19 +211,134 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.character {
+  width: 30%;
+  text-align: center;
 }
 
 .gallery img {
-  width: 30%;
+  width: 100%;
   height: 220px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: 3px 3px 10px black;
 }
 
 .gallery img:hover {
   transform: scale(1.03);
   transition: 0.3s;
+}
+
+.char-name {
+  margin-top: 1px;
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #EBCBA2;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  max-width: none;
+}
+
+.char-regiment {
+  font-size: 14px;
+  color: #EBCBA2;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  max-width: none;
+}
+
+/* favorites page */
+
+.favorites-table {
+  width: 80%;
+  margin: 20px auto 40px auto;
+  border-collapse: collapse;
+  color: #EBCBA2;
+}
+
+.favorites-table th,
+.favorites-table td {
+  border: 2px solid #EBCBA2;
+  padding: 12px;
+  text-align: center;
+}
+
+.favorites-table th {
+  background-color: #4E6952;
+  color: #EBCBA2;
+}
+
+.favorites-table td {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.survey-form {
+  width: 85%;
+  max-width: 900px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.survey-form label {
+  margin-top: 18px;
+  margin-bottom: 8px;
+  color: #f5DBBA;
+
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.survey-form input[type="text"],
+.survey-form select,
+.survey-form textarea {
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  border: 3px solid #275f3b;
+
+  background-color: #2A352B;
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.survey-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.survey-form input::placeholder,
+.survey-form textarea::placeholder {
+  color: #f0f0f0;
+}
+
+.form-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+.form-buttons input {
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: none;
+  background-color: #638e6a;
+  color: #ccd3cf;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-buttons input:hover {
+  opacity: 0.85;
 }

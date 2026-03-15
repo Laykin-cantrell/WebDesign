@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Attack on Titan Favorites</title>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -23,6 +29,67 @@
                 <li><a href="favorites.html">Favorites</a></li>
             </ul>
         </nav>
+
+        <main>
+            <section class="chapter">
+                <h3>Attack on Titan Survery</h3>
+
+                <form class="survey-form">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+
+                    <label for="favorite-character">Favorite Character</label>
+                    <select id="favorite-character" name="favorite-character">
+                        <option>Select a Character</option>
+                        <option>Ewrin Smith</option>
+                        <option>Hange Zoe</option>
+                        <option>Levi Ackerman</option>
+                        <option>Eren Jaeger</option>
+                        <option>Mikasa Ackerman</option>
+                        <option>Armin Arlert</option>
+                        <option>Reiner Braun</option>
+                        <option>Annie Leonhart</option>
+                        <option>Bertholdt Hoover</option>
+                        <option>Jean Kirschtein</option>
+                        <option>Sasha Braus</option>
+                        <option>Connie Springer</option>
+                        <option>Other</option>
+                    </select>
+
+                    <label for="favorite-season">Favorite Season</label>
+                    <select id="favorite-season" name="favorite-season">
+                        <option>Select one</option>
+                        <option>Season 1</option>
+                        <option>Season 2</option>
+                        <option>Season 3</option>
+                        <option>Final Season</option>
+                    </select>
+
+                    <label for="story-type">Manga or Anime?</label>
+                    <select id="story-type" name="story-type">
+                        <option>Select one</option>
+                        <option>Manga</option>
+                        <option>Anime</option>
+                    </select>
+
+                    <label for="audio-type">If Anime, English Sub or Dub?</label>
+                    <select id="audio-type" name="audio-type">
+                        <option>Select one</option>
+                        <option>English Sub</option>
+                        <option>English Dub</option>
+                    </select>
+
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="If you clicked Other on the Favorite Character Question, please share who is your favorite or any other reason why you like Attack on Titan."></textarea>
+
+                    <div class="form-buttons">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Clear Form">
+                    </div>
+                </form>
+            </section>
+        </main>
     </div>
 </body>
 </html>
