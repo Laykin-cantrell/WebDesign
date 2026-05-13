@@ -120,24 +120,24 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    width: 90%;
-    margin:40px auto;
+    width: 95%;
+    margin: 40px auto;
 }
 
 .gallery-item {
-    background-color: #f5e7eb;
+    background-color: transparent;
     border: none;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 0;
+    box-shadow: none;
 
-    display: flex;
 }
 
 .gallery-item img {
     width: 100%;
-    height: 320px;
+    height: 380px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 25px;
+    display: block;
 }
 
 /* blog post page */
