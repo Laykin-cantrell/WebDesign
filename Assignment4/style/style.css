@@ -29,7 +29,7 @@ body {
 
 .nav a:hover {
     background-color: #9caf88;
-    color: white;
+    color: rgb(252, 212, 240);
 }
 
 /* page titles */
@@ -196,18 +196,31 @@ body {
     }
 }
 
-/* Footer */
+/* The main footer container */
 
-.footer-text {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  color: #4f5f4b;
+.footer {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+  background-color: #4f5f4b; 
+  color: #f1c9e4;
+  padding: 30px 100px; 
+  font-family: Arial, Helvetica, sans-serif; 
+}
 
-  text-align: center;
+.footer ul {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+}
 
-  background: none;
-  border: none;
-  box-shadow: none;
-  padding: 0;
-  max-width: none;
+.footer li {
+  margin-bottom: 6px; 
+  font-size: 14px;
+}
+
+.social-icons img {
+  width: 22px; 
+  margin-right: 10px; 
+  vertical-align: middle; 
 }
