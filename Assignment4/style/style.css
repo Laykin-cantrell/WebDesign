@@ -195,3 +195,19 @@ body {
         width: 80%;
     }
 }
+
+/* Footer */
+
+.footer-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #4f5f4b;
+
+  text-align: center;
+
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  max-width: none;
+}
